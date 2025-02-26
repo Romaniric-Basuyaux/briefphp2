@@ -2,7 +2,7 @@
 
 //Information de connexion a la BDD
 $host = "localhost";
-$dbname = "bibliothèque";
+$dbname = "star_wars";
 $user = "root";
 $password = "";
 
@@ -17,3 +17,7 @@ try {
     //Si erreur de cnnexion
     die('Erreur de connexion: ' . $e->getMessage());
 }
+
+
+
+?>
